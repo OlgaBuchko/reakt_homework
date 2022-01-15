@@ -1,4 +1,4 @@
-import './commen.css'
+
 
 
 export default function Comment(props){

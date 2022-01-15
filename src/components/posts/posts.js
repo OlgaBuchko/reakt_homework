@@ -16,7 +16,7 @@ export  default function Posts() {
     return(
         <div className={'post_block'}>
             {
-                posts.map(post=><Post key={post.id}  id={post.id} userId={post.userId} title={post.title}body={post.body}/>
+                posts.map(post=><Post key={post.id}  id={post.id} userId={post.userId} title={post.title} body={post.body}/>
                 )}
         </div>
     )

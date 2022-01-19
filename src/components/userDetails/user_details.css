@@ -1,0 +1,7 @@
+.user_details{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user_details h1, .user_details p, .user_details h5 .user_details h4{margin: 5px}

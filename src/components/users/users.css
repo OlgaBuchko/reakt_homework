@@ -1,0 +1,11 @@
+.user{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.userBox{
+    width: 50%;
+    border: black 1px solid;
+}

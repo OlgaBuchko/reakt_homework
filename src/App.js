@@ -1,9 +1,9 @@
-
+import Launches from "./components/launches/launches";
 
 function App() {
   return (
-      <div>
-
+      <div className="App">
+          <Launches/>
       </div>
   );
 }

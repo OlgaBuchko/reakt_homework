@@ -18,15 +18,15 @@ function App() {
                 <Route path={'/'} element={<Layout/>}>
                     <Route path={'users'} element={<Users/>}>
                         <Route path={':id/albums'} element={<Albums/>}>
-                            <Route path={`/users/:id/albums/:albumId/photos`} element={<Photos/>}/>
+                            <Route path={`:albumId/photos`} element={<Photos/>}/>
                         </Route>
                         <Route path={':id'} element={<UserDetail/>}>
-                            <Route path={'/users/:id/posts'} element={<UserPosts/>}/>
+                            <Route path={'posts'} element={<UserPosts/>}/>
                         </Route>
                     </Route>
                     <Route path={'posts'} element={<Posts/>}>
                         <Route path={':id'} element={<PostDetails/>}>
-                            <Route path={'/posts/:id/comments'} element={<PostComments/>}/>
+                            <Route path={'comments'} element={<PostComments/>}/>
                         </Route>
                     </Route>
                 </Route>

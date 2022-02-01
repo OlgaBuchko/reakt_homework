@@ -43,7 +43,7 @@ export default function UserDetails() {
                     <p>catchPhrase : {user.company.catchPhrase} <br/> bs : {user.company.bs}</p>
 
                 </div>
-                <button><Link to={`/users/${id}/posts`}>User Posts</Link></button>
+                <button><Link to={`posts`}>User Posts</Link></button>
             </div>}
             <Outlet/>
         </div>

@@ -12,7 +12,7 @@ export default function Album({album}) {
                 user Id : {album.userId}<br/>
                 title : {album.title}<br/>
                 <button onClick={() => {
-                    navigate(`/users/id/albums/${album.id}/photos`, {state: album.id})
+                    navigate(`${album.id}/photos`, {state: album.id})
                 }}>photo
                 </button>
 

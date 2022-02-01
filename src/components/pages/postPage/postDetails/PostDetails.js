@@ -26,7 +26,7 @@ export default function PostDetails() {
                 user id : {post.userId}<br/>
                 title : {post.title}<br/>
                 body : {post.body}
-                <Link to={`/posts/${id}/comments`}>
+                <Link to={`comments`}>
                     <button>comments</button>
                 </Link>
             </div>}

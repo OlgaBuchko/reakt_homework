@@ -6,9 +6,8 @@ export default function Layout() {
     return (
         <div>
             <div className={'header'}>
-                <NavLink to={"/"}>Home</NavLink>
-                <NavLink to={"/Users"}>Users</NavLink>
-                <NavLink to={"/Posts"}>Posts</NavLink>
+                <NavLink to={"/users"}>Users</NavLink>
+                <NavLink to={"/posts"}>Posts</NavLink>
             </div>
             <div>
                 <Outlet/>

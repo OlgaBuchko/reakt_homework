@@ -8,8 +8,13 @@
 
 }
 
+
 .header a {
-    margin: 10px;
+    color: white;
     text-decoration: none;
+    margin: 0 10px;
 }
-.active{color: red}
+
+.header a[class='active'] {
+    color: red;
+}

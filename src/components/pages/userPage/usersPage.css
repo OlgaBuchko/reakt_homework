@@ -1,0 +1,33 @@
+.usersBlock{
+    display: flex;
+}
+.usersOutlet{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.users{
+    width: 50%;
+
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 10px;
+    position: relative;
+}
+.userButton button{
+    margin: 2px;
+}
+.userDetails h1, .userDetails h3, .userDetails h3, .userDetails h4, .userDetails h5, .userDetails p {
+    margin: 0;
+}
+.album{
+    border: cadetblue 2px solid;
+    margin: 5px;
+}
+.photoOutlet, .userPost{
+    display: flex;
+    align-items: center;
+    border: 2px grey solid;
+    justify-content: space-between;
+    margin: 5px 0;
+}

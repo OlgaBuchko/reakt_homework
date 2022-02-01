@@ -1,0 +1,13 @@
+.postDetails{
+    width: 50%;
+}
+.postsBlock{
+    display: flex;
+}
+.post{
+    width: 50%;
+}
+.comment{
+    border: 2px cadetblue solid;
+    margin: 5px;
+}

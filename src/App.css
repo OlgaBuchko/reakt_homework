@@ -1,0 +1,10 @@
+.forms{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cat,.dog{
+    margin: 10px;
+}
+.cat button,.dog button{
+    margin: 5px;
+}

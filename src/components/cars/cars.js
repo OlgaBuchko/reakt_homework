@@ -4,19 +4,18 @@ import {useEffect} from "react";
 import Car from "../car/car";
 import {getAllCars} from "../../store";
 
-export default function Cars(){
-  const {cars} = useSelector(state=>state['carReducer']);
-    console.log(cars)
-  const dispatch= useDispatch();
+export default function Cars() {
+    const {cars} = useSelector(state => state['carReducer']);
+    const dispatch = useDispatch();
 
-  useEffect(()=>{
-          dispatch(getAllCars())
-  },[])
+    useEffect(() => {
+        dispatch(getAllCars())
+    }, [])
     console.log(cars)
-    return(
+    return (
         <div>
             {
-                cars.map(car=> <Car key={car.id} car={car}/> )
+                cars.map(car => <Car key={car.id} car={car}/>)
             }
         </div>
     )

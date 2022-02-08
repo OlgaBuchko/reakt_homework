@@ -1,6 +1,6 @@
 import './App.css';
 import Cars from "./components/cars/cars";
-import Form from "./servises/form/form";
+import Form from "./components/form/form";
 
 function App() {
     return (

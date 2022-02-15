@@ -1,6 +1,0 @@
-
- NAME: Marina 
- AGE: 22 
- CITY: Harkiv 
- 
- 

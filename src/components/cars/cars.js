@@ -11,7 +11,6 @@ export default function Cars() {
     useEffect(() => {
         dispatch(getAllCars())
     }, [cars])
-    console.log(cars)
     return (
         <div>
             {

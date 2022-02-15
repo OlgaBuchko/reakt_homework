@@ -79,4 +79,3 @@ const changePlaces = function (arrInOnlineFile,arrInPersonFile) {
 inPersonFile(arrInPersonFile)
 }
 changePlaces(inPersonUsers,onlineUsers)
-
